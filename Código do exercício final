@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia cor
+
+		escreva("Qual a sua cor favorita? ")
+		leia(cor)
+
+
+		se(cor == "Vermelho") {
+			escreva("Que legal! É a minha também.")
+		}senao{
+			escreva("Respeito sua escolha.")
+		}
+	}
+}
